@@ -1,0 +1,17 @@
+﻿Summerizer - avvio rapido
+
+1. Apri questa cartella.
+2. Se manca, crea il file .env nella stessa cartella di Summerizer.exe con:
+   GEMINI_API_KEY=la_tua_chiave
+3. Se ffmpeg non e' installato sul PC, copia ffmpeg.exe e ffprobe.exe in:
+   .\ffmpeg\bin\
+4. Avvia Summerizer.exe con doppio click.
+
+File generati durante l'uso:
+- <video>_extracted.wav
+- <audio>_transcript.txt
+- <audio>_recap.docx oppure <audio>_recap.md
+
+Rigenerazione build:
+- .\build.ps1
+- .\build-installer.ps1

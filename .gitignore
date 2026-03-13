@@ -1,0 +1,9 @@
+.venv/*
+.claude/*
+.github/*
+.env
+__pycache__/*
+build/*
+dist/*
+assets/*
+test.py
